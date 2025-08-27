@@ -1,0 +1,29 @@
+{
+  "name": "project-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "deploy": "node deploy.js",
+  "deploy:basic": "node deploy_basic.js"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dr0Rick/project-time.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dr0Rick/project-time/issues"
+  },
+  "homepage": "https://github.com/Dr0Rick/project-time#readme",
+  "devDependencies": {
+    "ftp-deploy": "^2.4.7"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.5"
+  }
+}
